@@ -1,10 +1,13 @@
 Package: test
-Title: What the Package Does (Analyzes facs data)
+Title: Analyzes facs data
 Version: 0.0.0.9000
 Authors@R: 
-    person("First = Daniel", "Last = Paul", "email = danypaull16@gmail.com")
+    person(First= "Daniel", family= "Paul", , email= "danypaull16@gmail.com", role = c("aut", "cre"),
+           comment = c(ORCID = "YOUR-ORCID-ID"))
 Description: This package uses data from facs and cell count and gives the number of different populations.
 URL: git@github.com:daniellpaull/test.git 
+Date: 23.06.2023
+Year: 2023
 License: `use_gpl3_license()`
 Encoding: UTF-8
 Roxygen: list(markdown = TRUE)
