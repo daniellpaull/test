@@ -2,19 +2,16 @@ Package: test
 Title: Analyzes facs data
 Version: 0.0.0.9000
 Authors@R: 
-    person(First= "Daniel", family= "Paul", , email= "danypaull16@gmail.com", role = c("aut", "cre"),
+    person(given= "Daniel", family= "Paul", email= "danypaull16@gmail.com", role = c("aut", "cre"),
            comment = c(ORCID = "YOUR-ORCID-ID"))
+Year: 2023
+Date: June 23
 Description: This package uses data from facs and cell count and gives the number of different populations.
 URL: git@github.com:daniellpaull/test.git 
-Date: 23.06.2023
-Year: 2023
-License: `use_gpl3_license()`
+License: GPL (>= 3)
 Encoding: UTF-8
 Roxygen: list(markdown = TRUE)
 RoxygenNote: 7.2.3
-Imports: 
-    dplyr,
-    tibble
 Suggests: 
     knitr,
     rmarkdown
